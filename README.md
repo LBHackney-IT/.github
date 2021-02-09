@@ -1,2 +1,18 @@
-# .github
-Contains Hackney GitHub Action Templates
+# .github Contains Templates for Hackney GitHub Organisation
+This repository contains all of the infrastructure-as-code for building the Hackney AWS environment. The structure is as follows:
+
+- `/workflow-templates` contains GitHub Action templates that can be reused across other GitHub projects if required.
+
+
+## Contributing
+
+```bash
+git clone git@github.com:LBHackney-IT/.github.git
+```
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
