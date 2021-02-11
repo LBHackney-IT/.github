@@ -19,16 +19,13 @@ jobs:
     name: Label Pull Request with Repo(s)
     runs-on: ubuntu-latest
     steps:
-      - uses: adamzolyak/monorepo-pr-labeler-action@patching
-      
       - name: Label PRs
+        uses: adamzolyak/monorepo-pr-labeler-action@patching
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
       - name: Checkout
         uses: actions/checkout@v2
 
